@@ -13,7 +13,7 @@ class Example(QMainWindow):
         self.initUI()
         self.coords = [150, 150]
         self.s = 0
-        self.color = QColor(255, 255, 0)
+        self.color = QColor(randint(0, 255), randint(0, 255), randint(0, 255))
         self.flag = False
 
     def initUI(self):
